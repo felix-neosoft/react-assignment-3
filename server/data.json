@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Metallic Black Watch",
+      "price": "5999",
+      "quantity": "8",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Black Watch",
+      "price": "2999",
+      "quantity": "5",
+      "image": "images/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Black Leather Watch",
+      "price": "4999",
+      "quantity": "11",
+      "image": "images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Brown Leather Watch",
+      "price": "6999",
+      "quantity": "3",
+      "image": "images/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Metallic Blue Watch",
+      "price": "3999",
+      "quantity": "10",
+      "image": "images/5.jpg"
+    }
+  ],
+  "course": [
+    {
+      "id": 1,
+      "course": "React JS"
+    },
+    {
+      "id": 2,
+      "course": "Java"
+    },
+    {
+      "id": 3,
+      "course": "Android"
+    },
+    {
+      "id": 4,
+      "course": "Blockchain"
+    },
+    {
+      "id": 5,
+      "course": "ASP .NET"
+    }
+  ],
+  "enquiry": [
+    {
+      "course": "Android",
+      "name": "Felix Mathew",
+      "email": "felix@gmail.com",
+      "query": "Query 1",
+      "id": 1
+    },
+    {
+      "course": "Blockchain",
+      "name": "Siddharth Tarkar",
+      "email": "sid@gmail.com",
+      "query": "query 2",
+      "id": 2
+    },
+    {
+      "course": "Blockchain",
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "query": "query 3",
+      "id": 3
+    },
+    {
+      "course": "Blockchain",
+      "name": "Vinayak Chavan",
+      "email": "vinayak@gmail.com",
+      "query": "Hello Every one",
+      "id": 4
+    },
+    {
+      "course": "Android",
+      "name": "Felix Mathew",
+      "email": "felix@gmail.com",
+      "query": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua do eiusmod tempor incididunt ",
+      "id": 5
+    }
+  ]
+}
