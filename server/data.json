@@ -34,6 +34,41 @@
       "price": "3999",
       "quantity": "10",
       "image": "images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Metallic Brown Watch",
+      "price": "4999",
+      "quantity": "2",
+      "image": "images/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Metallic Brown Slim Watch",
+      "price": "2999",
+      "quantity": "7",
+      "image": "images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Golden Beauty Watch",
+      "price": "7999",
+      "quantity": "4",
+      "image": "images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Metallic Sliver Watch",
+      "price": "3999",
+      "quantity": "5",
+      "image": "images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Metallic Blackish Brown Watch",
+      "price": "10999",
+      "quantity": "3",
+      "image": "images/10.jpg"
     }
   ],
   "course": [

@@ -12,8 +12,8 @@ function Courses() {
     },[])
     return (
         <div>
-            <h1 className="products-heading" style={{textAlign:"center", margin:"30px 0px"}}>Courses</h1>
-            <Table striped bordered hover variant="dark" style={{width:"50%", margin:"0px auto"}}>
+            <h1 className="products-heading" style={{textAlign:"center", margin:"100px 0px 30px"}}>Courses</h1>
+            <Table striped bordered hover variant="dark" style={{width:"50%", margin:"0px auto 228px"}}>
                 <thead>
                     <tr>
                         <th>Sr No.</th>

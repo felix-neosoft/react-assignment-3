@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import {Modal, Button, Form} from 'react-bootstrap'
 import axios from 'axios'
 
@@ -16,6 +16,15 @@ export function MyVerticallyCenteredModal(props) {
     const [ename,setEname] = useState('')
     const [eemail,setEemail] = useState('')
     const [equery, setEquery] = useState('')
+
+    useEffect(()=>{
+      setName('')
+      setEmail('')
+      setQuery('')
+      setEname('')
+      setEemail('')
+      setEquery('')
+    },[props.show])
 
     const handler = e =>{
       let input = e.target.name
@@ -42,14 +51,8 @@ export function MyVerticallyCenteredModal(props) {
       if(ename === '' && eemail === '' && equery ===''){
         if(name !== '' && email !== '' && query !== ''){
           const formData = {"course":props.course, "name":nameRef.current.value, "email":emailRef.current.value, "query":queryRef.current.value}
-          setName('')
-          setEmail('')
-          setQuery('')
-          setEname('')
-          setEemail('')
-          setEquery('')
-          axios.post('http://localhost:3001/enquiry',formData)
-          {props.onHide()}
+          axios.post('http://localhost:3001/enquiry',formData).catch(err=> alert(err.message))
+          props.onHide()
 
         }else{alert("Enquiry Submission Failed! Input Fields Empty")}
       }else{alert("Enquiry Submission Failed! Validation Error")}
